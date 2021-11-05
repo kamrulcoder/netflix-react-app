@@ -174,7 +174,8 @@ module.exports = model("User", userScheema)
 
 </details>
 <br/>
-> ##### Movie  মডেল  এবং scheema  তৈরী কোয়ার জন্য আমাদের  যে বিষয় গুলো লাগবে তা নিম্নে  লিস্ট আকারে দেওয়া হলো -
+
+ ##### Movie  মডেল  এবং scheema  তৈরী কোয়ার জন্য আমাদের  যে বিষয় গুলো লাগবে তা নিম্নে  লিস্ট আকারে দেওয়া হলো -
 
 <details>
 <summary>Movie  Model and Scheema Create List  ...... </summary>
