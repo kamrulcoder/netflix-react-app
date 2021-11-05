@@ -489,26 +489,6 @@ router.put("/:id", verify, async (req, res) => {
   }
 });
 ```
-
-### User Delete Router and Controller   
-<details>
-<summary>User Update   Code ...  </summary>
-
-```javascript
-
-// Get single User Data 
-router.get("/find/:id", async (req, res) => {
-  try {
-    const user = await User.findById(req.params.id);
-    const { password, ...info } = user._doc;
-    res.status(200).json(info);
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
-
-
-```
 </details>
 
 
@@ -569,3 +549,24 @@ router.get("/stats", async (req, res) => {
 
 </details>
 
+
+### User Delete Router and Controller   
+<details>
+<summary>User Update   Code ...  </summary>
+
+```javascript
+
+// Get single User Data 
+router.get("/find/:id", async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+    const { password, ...info } = user._doc;
+    res.status(200).json(info);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+
+```
+</details>
