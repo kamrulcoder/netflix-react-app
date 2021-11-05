@@ -6,7 +6,7 @@
 
 
 ```javascript  
-npm install express jsonwebtoken mongoose nodemon dotenv crypto-js morgan 
+npm install express jsonwebtoken mongoose nodemon dotenv crypto-js morgan  cors
 ```
 
 > #### আমাদের কে rest  api  তৈরী করার জন্য  index.js    এ   যা করতে হবে তা নিম্ব দেওয়া হলো 
@@ -568,6 +568,4 @@ router.get("/stats", async (req, res) => {
 ```
 
 </details>
-
-
 
