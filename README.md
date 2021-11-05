@@ -135,7 +135,6 @@ mongoose.connect(uri,
 
 </details>
 
-<br/>
 <details>
 <summary>User Mode and Scheema Create Code   ...... </summary>
 
@@ -176,9 +175,8 @@ module.exports = model("User", userScheema)
 
 
 </details>
-<br/>
 
-> #### User  মডেল  এবং scheema  তৈরী কোয়ার জন্য আমাদের  যে বিষয় গুলো লাগবে তা নিম্নে  লিস্ট আকারে দেওয়া হলো -
+> #### Movie  মডেল  এবং scheema  তৈরী কোয়ার জন্য আমাদের  যে বিষয় গুলো লাগবে তা নিম্নে  লিস্ট আকারে দেওয়া হলো -
 <br/>
 <details>
 <summary>Movie  Model and Scheema Create List  ...... </summary>
@@ -209,10 +207,8 @@ module.exports = model("User", userScheema)
     -  defaut:false
 - timestamps :  true  
 
-
 </details>
 
-<br/>
 <details>
 <summary>Movie  Model  and Scheema Create Code   ...... </summary>
 
@@ -254,10 +250,10 @@ module.exports = model("Movie", movieScheema)
 
 
 ### List   মডেল  এবং scheema  তৈরী কোয়ার জন্য আমাদের  যে বিষয় গুলো লাগবে তা নিম্নে  লিস্ট আকারে দেওয়া হলো -
-<br/>
+
 <details>
 <summary>List  Model and Scheema Create List  ...... </summary>
-<br>
+
 
  -  title
     -  type: String 
@@ -273,7 +269,7 @@ module.exports = model("Movie", movieScheema)
 
 </details>
 
-<br/>
+
 
 <details>
 <summary>List   Model  and Scheema Create Code   ...... </summary>
