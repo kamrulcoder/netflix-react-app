@@ -371,6 +371,8 @@ router.post("/register", async (req, res) => {
 
 <details>
 <summary>Auth Login  Code ...  </summary>
+
+```javascript
 //LOGIN
 router.post("/login", async (req, res) => {
   try {
@@ -397,6 +399,7 @@ router.post("/login", async (req, res) => {
   }
 });
 
+```
 </details>
 
 
