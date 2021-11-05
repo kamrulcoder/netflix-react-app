@@ -111,7 +111,7 @@ mongoose.connect(uri,
 <br/>
 <details>
 <summary>User Mode and Scheema Create List  ...... </summary>
-<br>
+
 
  -  username
     -  type: String 
@@ -134,9 +134,6 @@ mongoose.connect(uri,
 
 
 </details>
-<br/>
-
-#### User  Model Code 
 
 <br/>
 <details>
@@ -185,7 +182,7 @@ module.exports = model("User", userScheema)
 <br/>
 <details>
 <summary>Movie  Model and Scheema Create List  ...... </summary>
-<br>
+
 
  -  title
     -  type: String 
@@ -214,11 +211,10 @@ module.exports = model("User", userScheema)
 
 
 </details>
-<br/>
-#### User  Model Code 
+
 <br/>
 <details>
-<summary>Move  Model  and Scheema Create Code   ...... </summary>
+<summary>Movie  Model  and Scheema Create Code   ...... </summary>
 
 ```javascript 
 const { Schema, model } = require('mongoose')
@@ -278,8 +274,6 @@ module.exports = model("Movie", movieScheema)
 </details>
 
 <br/>
-
-#### User  Model Code 
 
 <details>
 <summary>List   Model  and Scheema Create Code   ...... </summary>
